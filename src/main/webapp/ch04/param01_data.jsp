@@ -5,9 +5,12 @@
 </head>
 <body>
 	<p>	아이디 : <%=request.getParameter("id")%>
+	<h3>디코드 된 값 출력 해보기</h3>
 	<%
 		String name = request.getParameter("name");
 	%>
 	<p>	이 름 : <%=java.net.URLDecoder.decode(name)%>
+	<h3>그냥 디코드 안된 값 출력 해보기</h3>
+	<h4> <% out.print(name);%></h4>
 </body>
 </html>
