@@ -14,7 +14,7 @@
 		String phone2 = request.getParameter("phone2");
 		String phone3 = request.getParameter("phone3");
 		String sex = request.getParameter("sex");
-		String[] hobby = request.getParameterValues("hobby");
+		String[] hobby = request.getParameterValues("hobby"); // form04랑 다른 점.
 		String comment = request.getParameter("comment");
 	%>
 	<p> 아이디 : <%=id%>
