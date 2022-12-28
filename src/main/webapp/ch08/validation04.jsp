@@ -11,6 +11,7 @@
 			var ch = form.id.value.charAt(i);
         
 			if ((ch<'a'||ch>'z') && (ch>'A'||ch<'Z') && (ch>'0'||ch<'9')){
+			/* 	                    'A'<ch<'Z' 는 안됨   '0'<ch<'9' 는 안됨*/
 				alert("아이디는 영문 소문자로만 입력 가능 합니다!");
 				form.id.select();
 				return;
