@@ -2,7 +2,7 @@
 <%@ page errorPage="errorPage_error.jsp"%>
 <html>
 <head>
-<title>Exception</title>
+<title>Exception1</title>
 </head>
 <body>
 	name 파라미터 : <%=request.getParameter("name").toUpperCase()%>
