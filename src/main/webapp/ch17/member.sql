@@ -1,13 +1,13 @@
-drop table member;
+drop table member2;
 
-CREATE TABLE IF NOT EXISTS member(
+CREATE TABLE IF NOT EXISTS member2(
    id VARCHAR(20) NOT NULL,
    passwd  VARCHAR(20),
    name VARCHAR(30),    
    PRIMARY KEY (id)
 );
-INSERT INTO member VALUES('1', '1234', 'ȫ���');
-INSERT INTO member VALUES('2', '1235', 'ȫ�浿');
+INSERT INTO member2 VALUES('1', '1234', '홍길순');
+INSERT INTO member2 VALUES('2', '1235', '홍길동');
 
 
-select * from member;
+select * from member2;
